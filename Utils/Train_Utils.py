@@ -222,7 +222,7 @@ def ChangeToOtherMachine(filelist, repo="Floorplan_Door_Detection", remote_machi
             suffix = suffix[1:]
         new_list.append(os.path.join(prefix, repo + "/", suffix).replace("\\", "/"))
     print(
-        "8888888888888888888*********************************98888888888888888888888888888888888"
+        "-----------------------------------------------------------------------"
     )
     print(new_list)
     return new_list

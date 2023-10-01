@@ -1,0 +1,3580 @@
+{
+    "name": "doorAnnotations",
+    "securityToken": "doorAnnotations Token",
+    "sourceConnection": {
+        "name": "Raw_train",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZjZkOGNmNDUxODE0ZGI5NzQ5NTQ2ZTIzZWVhY2JhNDVjZmUwMWU5Nzc3MzQyMDU4NjBmYjQ3MTBjN2E0OWNiNDE3MThiMjI2YzJiOThjZDAwMTUyYzBmYjRlNGMxMjYzZjJmZjVlNjBlOGEyZjY1NTNjZGI1MTY2NzQyNmUzMTQxNWNjOTMwN2FkNWU1MzhmYWViMjc1ZjdkYzk4MDFmMGUzNDllYjM0OWEzNGVhN2U0MmM0YjU0NGMzNWNhOGZiMjg1MDcxNzViNzYxNzk2MDk5ZWY0MmRmNzY1MWZlZGIiLCJpdiI6ImI4OTMxMTcxNDAxNjk4M2ZjOWE1YmRlNzJlNjNjZDAxYTgwMDU0ZjJjODdiNmNlYSJ9"
+        },
+        "id": "zNkWJRBHF"
+    },
+    "targetConnection": {
+        "name": "Train_output",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMGJhNDhhZmY2MGE1NjBhOGMxMGQzYjQ2MTI4NzU5MWVlYTZjZjdhZGE0ZDk4ZmI1ZDVlMzVhYmYwM2FiODBlZTQ2NTU0NzU3Y2IxMzg4NjRiMGFjMGU2ZTRlNzI1YzNjNDRlMzRhYTlmZGNmZDFlNjkzNWQ0MTM1YTMxMGJjNjdhMTJkNzY5ZjdlMWYwNjUzYTQwOGI2MDA5MjFkNDZiMmQ3NDU3NTM2OGZhZDBkOWQ5OWE2NDJhOTc4YjY0NGE2NmJlMjA3Njg5ZDc2MGM1MGJkMjFkOTJkMThmYWUzMzQiLCJpdiI6ImQzNTA3ZWUwNTk4YWY3YTI2YWNjYzVlZTQ2ZjkwMTZlOTkzNTYwNmYzZGZkNjdiNSJ9"
+        },
+        "id": "iLgteo0X0"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [
+        {
+            "name": "Door",
+            "color": "#5db300"
+        }
+    ],
+    "id": "MQ9YhRwkg",
+    "activeLearningSettings": {
+        "modelPathType": "coco",
+        "autoDetect": false,
+        "predictTag": false
+    },
+    "exportFormat": {
+        "providerType": "csv",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiY2MwMzU1Y2IyMTAzYWIyNjU0YjFiNjg3ZmUwZDJhMzlmYjNiNDA4NDJmZTU2YmJiOWZmZTJiZTJjMjRhNWJhODA5MmU3MTQwZjVhODMzNTYzMWU1MWMxMDE0ZWQxYzFiIiwiaXYiOiI1N2Q4MjEyMjlmNTk0ZjVhYWY4M2Y4NjQ5YjY4OWEzZTQyZGNlYmUzYWE1NjA3YTgifQ=="
+        }
+    },
+    "version": "2.2.0",
+    "lastVisitedAssetId": "7a7b4df6d3a34480ae964235a718a66b",
+    "assets": {
+        "7ec5856ad2c295a89cd6d2e710e6f28f": {
+            "format": "png",
+            "id": "7ec5856ad2c295a89cd6d2e710e6f28f",
+            "name": "1.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/1.png",
+            "size": {
+                "width": 1094,
+                "height": 905
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "b23a039fafa0e1cd11899934e63b3969": {
+            "format": "png",
+            "id": "b23a039fafa0e1cd11899934e63b3969",
+            "name": "2.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/2.png",
+            "size": {
+                "width": 1318,
+                "height": 1229
+            },
+            "state": 1,
+            "type": 1,
+            "predicted": true
+        },
+        "7a7b4df6d3a34480ae964235a718a66b": {
+            "format": "png",
+            "id": "7a7b4df6d3a34480ae964235a718a66b",
+            "name": "3.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/3.png",
+            "size": {
+                "width": 1298,
+                "height": 1506
+            },
+            "state": 1,
+            "type": 1,
+            "predicted": true
+        },
+        "dd96513b9fd16059a361baba9428eaa3": {
+            "format": "png",
+            "id": "dd96513b9fd16059a361baba9428eaa3",
+            "name": "4.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/4.png",
+            "size": {
+                "width": 1027,
+                "height": 1369
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "b50c62f44ec3a334ac39e9f621ba9efc": {
+            "format": "png",
+            "id": "b50c62f44ec3a334ac39e9f621ba9efc",
+            "name": "5.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/5.png",
+            "size": {
+                "width": 1479,
+                "height": 1486
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "b9813bb89ab66f3fb58355a127362813": {
+            "format": "png",
+            "id": "b9813bb89ab66f3fb58355a127362813",
+            "name": "6.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/6.png",
+            "size": {
+                "width": 2218,
+                "height": 2227
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "6e2512f373592ca6cb44e6725c954747": {
+            "format": "png",
+            "id": "6e2512f373592ca6cb44e6725c954747",
+            "name": "7.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/7.png",
+            "size": {
+                "width": 1497,
+                "height": 1462
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "e723d25bd22930c147f6399c95a08c41": {
+            "format": "png",
+            "id": "e723d25bd22930c147f6399c95a08c41",
+            "name": "8.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/8.png",
+            "size": {
+                "width": 1621,
+                "height": 1349
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "cff37ec1495e23611a4d451a85c21dee": {
+            "format": "jpg",
+            "id": "cff37ec1495e23611a4d451a85c21dee",
+            "name": "Cat10_1.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat10_1.jpg",
+            "size": {
+                "width": 1386,
+                "height": 839
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "eb344a1cb136fee23adeec068609a100": {
+            "format": "jpg",
+            "id": "eb344a1cb136fee23adeec068609a100",
+            "name": "Cat10_2.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat10_2.jpg",
+            "size": {
+                "width": 1386,
+                "height": 839
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "03048cf5162ff2851ff028c0387e691d": {
+            "format": "jpg",
+            "id": "03048cf5162ff2851ff028c0387e691d",
+            "name": "Cat10_3.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat10_3.jpg",
+            "size": {
+                "width": 1386,
+                "height": 840
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "54c5eb228f641a0ec1cbf22a0f368db2": {
+            "format": "jpg",
+            "id": "54c5eb228f641a0ec1cbf22a0f368db2",
+            "name": "Cat10_4.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat10_4.jpg",
+            "size": {
+                "width": 1386,
+                "height": 840
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "811dafcc37e7d89bf37ea7805aeef854": {
+            "format": "jpg",
+            "id": "811dafcc37e7d89bf37ea7805aeef854",
+            "name": "Cat10_5.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat10_5.jpg",
+            "size": {
+                "width": 1386,
+                "height": 840
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "5f0de119a8ecd4677da5622ea08b21ae": {
+            "format": "jpg",
+            "id": "5f0de119a8ecd4677da5622ea08b21ae",
+            "name": "Cat10_6.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat10_6.jpg",
+            "size": {
+                "width": 1386,
+                "height": 839
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "15b804cc4e6761b1645862c86c0fa1a7": {
+            "format": "jpg",
+            "id": "15b804cc4e6761b1645862c86c0fa1a7",
+            "name": "Cat10_7.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat10_7.jpg",
+            "size": {
+                "width": 1386,
+                "height": 839
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "33d8d9df76a1bfd302825e08ed6ce9ad": {
+            "format": "jpg",
+            "id": "33d8d9df76a1bfd302825e08ed6ce9ad",
+            "name": "Cat10_8.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat10_8.jpg",
+            "size": {
+                "width": 1386,
+                "height": 840
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "d58c2cba337785575e3b0f0c51075f99": {
+            "format": "jpg",
+            "id": "d58c2cba337785575e3b0f0c51075f99",
+            "name": "Cat11_1.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat11_1.jpg",
+            "size": {
+                "width": 839,
+                "height": 1386
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "ef8236afda3603100efd95f87e55670b": {
+            "format": "jpg",
+            "id": "ef8236afda3603100efd95f87e55670b",
+            "name": "Cat11_2.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat11_2.jpg",
+            "size": {
+                "width": 839,
+                "height": 1386
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "824fad5cb957f1f64a51b073e76c1348": {
+            "format": "jpg",
+            "id": "824fad5cb957f1f64a51b073e76c1348",
+            "name": "Cat11_3.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat11_3.jpg",
+            "size": {
+                "width": 839,
+                "height": 1386
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "6ce57baf1dee9f2428dbaa04f62a7f80": {
+            "format": "jpg",
+            "id": "6ce57baf1dee9f2428dbaa04f62a7f80",
+            "name": "Cat11_4.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat11_4.jpg",
+            "size": {
+                "width": 839,
+                "height": 1386
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "884f40cf0b943721becc71e97b22886b": {
+            "format": "jpg",
+            "id": "884f40cf0b943721becc71e97b22886b",
+            "name": "Cat11_5.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat11_5.jpg",
+            "size": {
+                "width": 839,
+                "height": 1386
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "0329ea418c03481ac6d6bb74e56f168f": {
+            "format": "jpg",
+            "id": "0329ea418c03481ac6d6bb74e56f168f",
+            "name": "Cat11_6.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat11_6.jpg",
+            "size": {
+                "width": 839,
+                "height": 1386
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "85cb69f276586b3c6104b61da803bc2e": {
+            "format": "jpg",
+            "id": "85cb69f276586b3c6104b61da803bc2e",
+            "name": "Cat11_7.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat11_7.jpg",
+            "size": {
+                "width": 839,
+                "height": 1386
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "4734f720037f24bbbeae9ed424965165": {
+            "format": "jpg",
+            "id": "4734f720037f24bbbeae9ed424965165",
+            "name": "Cat11_8.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat11_8.jpg",
+            "size": {
+                "width": 839,
+                "height": 1386
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "698371970c3b905407de8f492caa0907": {
+            "format": "jpg",
+            "id": "698371970c3b905407de8f492caa0907",
+            "name": "Cat12_1.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat12_1.jpg",
+            "size": {
+                "width": 839,
+                "height": 1386
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "cb065ac40977fdf7cabe3b5eb785b1c1": {
+            "format": "jpg",
+            "id": "cb065ac40977fdf7cabe3b5eb785b1c1",
+            "name": "Cat12_2.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat12_2.jpg",
+            "size": {
+                "width": 840,
+                "height": 1386
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "c5d34f580a917b8266a444bae40ecba1": {
+            "format": "jpg",
+            "id": "c5d34f580a917b8266a444bae40ecba1",
+            "name": "Cat12_3.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat12_3.jpg",
+            "size": {
+                "width": 840,
+                "height": 1386
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "495dae7b5fc707105466be2d6afdaf94": {
+            "format": "jpg",
+            "id": "495dae7b5fc707105466be2d6afdaf94",
+            "name": "Cat12_4.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat12_4.jpg",
+            "size": {
+                "width": 840,
+                "height": 1386
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "aac4514421a7df92044cf8355554e604": {
+            "format": "jpg",
+            "id": "aac4514421a7df92044cf8355554e604",
+            "name": "Cat12_5.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat12_5.jpg",
+            "size": {
+                "width": 840,
+                "height": 1386
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "9f1cc3100b933d42523b08b6ae3ff1e0": {
+            "format": "jpg",
+            "id": "9f1cc3100b933d42523b08b6ae3ff1e0",
+            "name": "Cat12_6.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat12_6.jpg",
+            "size": {
+                "width": 839,
+                "height": 1386
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "28ae01b0081dc16ec17f1857cdd400a7": {
+            "format": "jpg",
+            "id": "28ae01b0081dc16ec17f1857cdd400a7",
+            "name": "Cat12_7.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat12_7.jpg",
+            "size": {
+                "width": 839,
+                "height": 1386
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "32f825a420e40e80eb750f584a89cdb3": {
+            "format": "jpg",
+            "id": "32f825a420e40e80eb750f584a89cdb3",
+            "name": "Cat12_8.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat12_8.jpg",
+            "size": {
+                "width": 839,
+                "height": 1386
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "92716191b2b255f53498def04c6058eb": {
+            "format": "jpg",
+            "id": "92716191b2b255f53498def04c6058eb",
+            "name": "Cat13_1.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat13_1.jpg",
+            "size": {
+                "width": 1288,
+                "height": 718
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "0185445b8bd324c6aea0fccafbe261c7": {
+            "format": "jpg",
+            "id": "0185445b8bd324c6aea0fccafbe261c7",
+            "name": "Cat13_2.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat13_2.jpg",
+            "size": {
+                "width": 1288,
+                "height": 718
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "307e7449f931174f4cd68b9c49529ef4": {
+            "format": "tiff",
+            "id": "307e7449f931174f4cd68b9c49529ef4",
+            "name": "file_0.tiff",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/file_0.tiff",
+            "size": null,
+            "state": 1,
+            "type": 1
+        },
+        "aa463361f95703f0506707610c06d3a9": {
+            "format": "png",
+            "id": "aa463361f95703f0506707610c06d3a9",
+            "name": "image030.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/image030.png",
+            "size": {
+                "width": 5671,
+                "height": 7383
+            },
+            "state": 1,
+            "type": 1
+        },
+        "1976cbdc643ac1be60a739eae3cd2d12": {
+            "format": "png",
+            "id": "1976cbdc643ac1be60a739eae3cd2d12",
+            "name": "image029.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/image029.png",
+            "size": {
+                "width": 5671,
+                "height": 7383
+            },
+            "state": 1,
+            "type": 1
+        },
+        "9e72d5ffe18eb1b46ebbbe543c62ed67": {
+            "format": "png",
+            "id": "9e72d5ffe18eb1b46ebbbe543c62ed67",
+            "name": "image028.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/image028.png",
+            "size": {
+                "width": 5671,
+                "height": 7383
+            },
+            "state": 1,
+            "type": 1
+        },
+        "f10bb668bc754fdea45f42a702ed2f4a": {
+            "format": "jpg",
+            "id": "f10bb668bc754fdea45f42a702ed2f4a",
+            "name": "big1_1.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/big1_1.jpg",
+            "size": {
+                "width": 2739,
+                "height": 1000
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "bbd55cc5bb4946540963a098e79ba1c5": {
+            "format": "jpg",
+            "id": "bbd55cc5bb4946540963a098e79ba1c5",
+            "name": "big10_1.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/big10_1.jpg",
+            "size": {
+                "width": 2914,
+                "height": 1000
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "d0fb5ce29ab328e1e9e36bd56b257c0a": {
+            "format": "jpg",
+            "id": "d0fb5ce29ab328e1e9e36bd56b257c0a",
+            "name": "big10_2.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/big10_2.jpg",
+            "size": {
+                "width": 2893,
+                "height": 1000
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "93c7ad461c9f4037dd4c0a14a82f4708": {
+            "format": "jpg",
+            "id": "93c7ad461c9f4037dd4c0a14a82f4708",
+            "name": "big11_1.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/big11_1.jpg",
+            "size": {
+                "width": 3755,
+                "height": 1471
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "a7a02ff62a6c3e8dfcbff547564876e0": {
+            "format": "jpg",
+            "id": "a7a02ff62a6c3e8dfcbff547564876e0",
+            "name": "big11_2.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/big11_2.jpg",
+            "size": {
+                "width": 2401,
+                "height": 1000
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "cb8375306b138233b70d59b82ef2a69d": {
+            "format": "jpg",
+            "id": "cb8375306b138233b70d59b82ef2a69d",
+            "name": "big12_1.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/big12_1.jpg",
+            "size": {
+                "width": 2542,
+                "height": 1000
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "aa8879b6edec5104b0cf915693c63fb6": {
+            "format": "jpg",
+            "id": "aa8879b6edec5104b0cf915693c63fb6",
+            "name": "big12_2.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/big12_2.jpg",
+            "size": {
+                "width": 2574,
+                "height": 1000
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "4632b89267585eb7d87095b4ee9ddeda": {
+            "format": "jpg",
+            "id": "4632b89267585eb7d87095b4ee9ddeda",
+            "name": "big13_1.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/big13_1.jpg",
+            "size": {
+                "width": 4275,
+                "height": 1469
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "63d55ee88706c2d4f651f7492140e990": {
+            "format": "jpg",
+            "id": "63d55ee88706c2d4f651f7492140e990",
+            "name": "big13_2.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/big13_2.jpg",
+            "size": {
+                "width": 2565,
+                "height": 1000
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "c5e86c10b0adb914b5d5e2e33940d321": {
+            "format": "jpg",
+            "id": "c5e86c10b0adb914b5d5e2e33940d321",
+            "name": "big14_1.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/big14_1.jpg",
+            "size": {
+                "width": 4277,
+                "height": 1468
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "0e4f971fd6491e86fe36a56b317a56a4": {
+            "format": "jpg",
+            "id": "0e4f971fd6491e86fe36a56b317a56a4",
+            "name": "big14_2.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/big14_2.jpg",
+            "size": {
+                "width": 2897,
+                "height": 1000
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "a60f76b9130316a1757bcd251ea124c1": {
+            "format": "jpg",
+            "id": "a60f76b9130316a1757bcd251ea124c1",
+            "name": "big15_1.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/big15_1.jpg",
+            "size": {
+                "width": 2923,
+                "height": 1000
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "8d64315253ca243e500e8e62876fa1a8": {
+            "format": "jpg",
+            "id": "8d64315253ca243e500e8e62876fa1a8",
+            "name": "big15_2.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/big15_2.jpg",
+            "size": {
+                "width": 2920,
+                "height": 1000
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "b13970228513a96403fa78f999ddb82d": {
+            "format": "jpg",
+            "id": "b13970228513a96403fa78f999ddb82d",
+            "name": "big1_2.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/big1_2.jpg",
+            "size": {
+                "width": 2894,
+                "height": 1000
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "08de98c799332dd60562b348844f5310": {
+            "format": "jpg",
+            "id": "08de98c799332dd60562b348844f5310",
+            "name": "big2_1.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/big2_1.jpg",
+            "size": {
+                "width": 2929,
+                "height": 1000
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "2a4dbfdb5d14035dfcaef65778c289d0": {
+            "format": "jpg",
+            "id": "2a4dbfdb5d14035dfcaef65778c289d0",
+            "name": "big2_2.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/big2_2.jpg",
+            "size": {
+                "width": 2940,
+                "height": 1000
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "a5e9a37d4396324fb9a116f1c5fe65e5": {
+            "format": "jpg",
+            "id": "a5e9a37d4396324fb9a116f1c5fe65e5",
+            "name": "big3_1.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/big3_1.jpg",
+            "size": {
+                "width": 2736,
+                "height": 1000
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "3278f00da6be1b78f4f6ccb0b540ca8d": {
+            "format": "jpg",
+            "id": "3278f00da6be1b78f4f6ccb0b540ca8d",
+            "name": "big3_2.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/big3_2.jpg",
+            "size": {
+                "width": 2921,
+                "height": 1000
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "df7e76910a0ecaa5a44354371690895d": {
+            "format": "jpg",
+            "id": "df7e76910a0ecaa5a44354371690895d",
+            "name": "big4_1.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/big4_1.jpg",
+            "size": {
+                "width": 2589,
+                "height": 1000
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "9b50a9ccedeeb39612964393fd51e992": {
+            "format": "jpg",
+            "id": "9b50a9ccedeeb39612964393fd51e992",
+            "name": "big4_2.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/big4_2.jpg",
+            "size": {
+                "width": 2385,
+                "height": 1000
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "ec50270dac6d54589c98c8518fddc897": {
+            "format": "jpg",
+            "id": "ec50270dac6d54589c98c8518fddc897",
+            "name": "big5_1.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/big5_1.jpg",
+            "size": {
+                "width": 2534,
+                "height": 1000
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "ece5aa0da49b678bd3f76431c5d9f7d6": {
+            "format": "jpg",
+            "id": "ece5aa0da49b678bd3f76431c5d9f7d6",
+            "name": "big5_2.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/big5_2.jpg",
+            "size": {
+                "width": 2562,
+                "height": 1000
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "db8e8c1d522ad81f6ee5b9ea4d3f0d74": {
+            "format": "jpg",
+            "id": "db8e8c1d522ad81f6ee5b9ea4d3f0d74",
+            "name": "big6_1.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/big6_1.jpg",
+            "size": {
+                "width": 4282,
+                "height": 1477
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "8edf3fe24f7ecf25bdf7173d11e6614d": {
+            "format": "jpg",
+            "id": "8edf3fe24f7ecf25bdf7173d11e6614d",
+            "name": "big6_2.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/big6_2.jpg",
+            "size": {
+                "width": 3785,
+                "height": 1477
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "3add2ca28c2492d0ee069acea05004a5": {
+            "format": "jpg",
+            "id": "3add2ca28c2492d0ee069acea05004a5",
+            "name": "big7_1.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/big7_1.jpg",
+            "size": {
+                "width": 2562,
+                "height": 1000
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "c532c026b9a5f53493c6d717eefb394d": {
+            "format": "jpg",
+            "id": "c532c026b9a5f53493c6d717eefb394d",
+            "name": "big7_2.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/big7_2.jpg",
+            "size": {
+                "width": 2559,
+                "height": 1000
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "0065e24c0ada178685451189583b8c25": {
+            "format": "jpg",
+            "id": "0065e24c0ada178685451189583b8c25",
+            "name": "big8_1.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/big8_1.jpg",
+            "size": {
+                "width": 2897,
+                "height": 1000
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "07a51bdd348a282d12f50b1ab1ad2ac4": {
+            "format": "jpg",
+            "id": "07a51bdd348a282d12f50b1ab1ad2ac4",
+            "name": "big8_2.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/big8_2.jpg",
+            "size": {
+                "width": 2567,
+                "height": 1000
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "b4f5deb5a8c6f6f8d1908551a68d2060": {
+            "format": "jpg",
+            "id": "b4f5deb5a8c6f6f8d1908551a68d2060",
+            "name": "big9_1.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/big9_1.jpg",
+            "size": {
+                "width": 2555,
+                "height": 1000
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "6831f5fc086c925c1523159dc919714b": {
+            "format": "jpg",
+            "id": "6831f5fc086c925c1523159dc919714b",
+            "name": "big9_2.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/big9_2.jpg",
+            "size": {
+                "width": 3772,
+                "height": 1471
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "e60a3707893ce99ba6f6e4f3c82c5a7c": {
+            "format": "jpg",
+            "id": "e60a3707893ce99ba6f6e4f3c82c5a7c",
+            "name": "Cat13_3.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat13_3.jpg",
+            "size": {
+                "width": 1287,
+                "height": 718
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "b128f2a309133e81cab3043cad890a89": {
+            "format": "jpg",
+            "id": "b128f2a309133e81cab3043cad890a89",
+            "name": "Cat13_4.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat13_4.jpg",
+            "size": {
+                "width": 1306,
+                "height": 913
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "932b461125cef7ca5fccd463a18a79e7": {
+            "format": "jpg",
+            "id": "932b461125cef7ca5fccd463a18a79e7",
+            "name": "Cat13_5.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat13_5.jpg",
+            "size": {
+                "width": 1305,
+                "height": 913
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "e208379037cb1c1f673fc00634f81d1f": {
+            "format": "jpg",
+            "id": "e208379037cb1c1f673fc00634f81d1f",
+            "name": "Cat13_6.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat13_6.jpg",
+            "size": {
+                "width": 1306,
+                "height": 913
+            },
+            "state": 2,
+            "type": 1
+        },
+        "dd75af5e4f865844b8cd74bd91e34441": {
+            "format": "jpg",
+            "id": "dd75af5e4f865844b8cd74bd91e34441",
+            "name": "Cat13_7.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat13_7.jpg",
+            "size": {
+                "width": 958,
+                "height": 855
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8c4c791235992bfb1420363d701babe8": {
+            "format": "jpg",
+            "id": "8c4c791235992bfb1420363d701babe8",
+            "name": "Cat13_8.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat13_8.jpg",
+            "size": {
+                "width": 958,
+                "height": 855
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d3925e49f7e60c3dd8cabe09c8b3ef10": {
+            "format": "jpg",
+            "id": "d3925e49f7e60c3dd8cabe09c8b3ef10",
+            "name": "Cat14_1.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat14_1.jpg",
+            "size": {
+                "width": 719,
+                "height": 1287
+            },
+            "state": 2,
+            "type": 1
+        },
+        "69ab4b6260db50457210b9095e9e334c": {
+            "format": "jpg",
+            "id": "69ab4b6260db50457210b9095e9e334c",
+            "name": "Cat14_2.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat14_2.jpg",
+            "size": {
+                "width": 719,
+                "height": 1287
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a0a6695768744ae1fb2f958b9b0b8457": {
+            "format": "jpg",
+            "id": "a0a6695768744ae1fb2f958b9b0b8457",
+            "name": "Cat14_3.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat14_3.jpg",
+            "size": {
+                "width": 719,
+                "height": 1286
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e2ee5fadf7a5a90dd2b014bca8779f78": {
+            "format": "jpg",
+            "id": "e2ee5fadf7a5a90dd2b014bca8779f78",
+            "name": "Cat14_4.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat14_4.jpg",
+            "size": {
+                "width": 913,
+                "height": 1306
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f762cbb60793806186208a21dacb410f": {
+            "format": "jpg",
+            "id": "f762cbb60793806186208a21dacb410f",
+            "name": "Cat14_5.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat14_5.jpg",
+            "size": {
+                "width": 913,
+                "height": 1306
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6b08f4336554bc6cdb3fa544ae20f443": {
+            "format": "jpg",
+            "id": "6b08f4336554bc6cdb3fa544ae20f443",
+            "name": "Cat14_6.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat14_6.jpg",
+            "size": {
+                "width": 913,
+                "height": 1305
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c859763df207974aa81e1489defabaa3": {
+            "format": "jpg",
+            "id": "c859763df207974aa81e1489defabaa3",
+            "name": "Cat14_7.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat14_7.jpg",
+            "size": {
+                "width": 856,
+                "height": 957
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d8495feb3ab0501d4bd71f273ecb3f0d": {
+            "format": "jpg",
+            "id": "d8495feb3ab0501d4bd71f273ecb3f0d",
+            "name": "Cat14_8.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat14_8.jpg",
+            "size": {
+                "width": 856,
+                "height": 957
+            },
+            "state": 2,
+            "type": 1
+        },
+        "83f435f89df27cb9705f99996e52b48e": {
+            "format": "jpg",
+            "id": "83f435f89df27cb9705f99996e52b48e",
+            "name": "Cat15_1.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat15_1.jpg",
+            "size": {
+                "width": 1194,
+                "height": 604
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d63bb0a7d1db7563e20f46097c17131c": {
+            "format": "jpg",
+            "id": "d63bb0a7d1db7563e20f46097c17131c",
+            "name": "Cat15_2.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat15_2.jpg",
+            "size": {
+                "width": 1194,
+                "height": 604
+            },
+            "state": 2,
+            "type": 1
+        },
+        "226c71b15cec37ed0580c564330f7dc9": {
+            "format": "jpg",
+            "id": "226c71b15cec37ed0580c564330f7dc9",
+            "name": "Cat15_3.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat15_3.jpg",
+            "size": {
+                "width": 1194,
+                "height": 604
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d01674b79e52213039060f37ffd6e37f": {
+            "format": "jpg",
+            "id": "d01674b79e52213039060f37ffd6e37f",
+            "name": "Cat15_4.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat15_4.jpg",
+            "size": {
+                "width": 1194,
+                "height": 607
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4f6bd3718527b83fbe2cf5b86e765866": {
+            "format": "jpg",
+            "id": "4f6bd3718527b83fbe2cf5b86e765866",
+            "name": "Cat15_5.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat15_5.jpg",
+            "size": {
+                "width": 1194,
+                "height": 603
+            },
+            "state": 2,
+            "type": 1
+        },
+        "13e89d13f344142796cea2cd88497f89": {
+            "format": "jpg",
+            "id": "13e89d13f344142796cea2cd88497f89",
+            "name": "Cat15_6.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat15_6.jpg",
+            "size": {
+                "width": 1194,
+                "height": 604
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c0a776652834f67051b45836c0152aac": {
+            "format": "jpg",
+            "id": "c0a776652834f67051b45836c0152aac",
+            "name": "Cat15_7.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat15_7.jpg",
+            "size": {
+                "width": 1194,
+                "height": 607
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0bddfe6d5fe8d62a195eeeeaf2158d8e": {
+            "format": "jpg",
+            "id": "0bddfe6d5fe8d62a195eeeeaf2158d8e",
+            "name": "Cat15_8.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat15_8.jpg",
+            "size": {
+                "width": 1194,
+                "height": 725
+            },
+            "state": 2,
+            "type": 1
+        },
+        "46cc45f6e88acd63f544d941ac920a97": {
+            "format": "jpg",
+            "id": "46cc45f6e88acd63f544d941ac920a97",
+            "name": "Cat16_1.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat16_1.jpg",
+            "size": {
+                "width": 1052,
+                "height": 1060
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5e8cce1ded07462af07678da11fa9106": {
+            "format": "jpg",
+            "id": "5e8cce1ded07462af07678da11fa9106",
+            "name": "Cat16_2.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat16_2.jpg",
+            "size": {
+                "width": 1026,
+                "height": 1320
+            },
+            "state": 2,
+            "type": 1
+        },
+        "615d4046b56f7019e315a72390275f54": {
+            "format": "jpg",
+            "id": "615d4046b56f7019e315a72390275f54",
+            "name": "Cat16_3.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat16_3.jpg",
+            "size": {
+                "width": 1024,
+                "height": 1206
+            },
+            "state": 2,
+            "type": 1
+        },
+        "44a868e6b4bb5fb82c740fe215a7acdb": {
+            "format": "jpg",
+            "id": "44a868e6b4bb5fb82c740fe215a7acdb",
+            "name": "Cat16_4.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat16_4.jpg",
+            "size": {
+                "width": 1196,
+                "height": 1206
+            },
+            "state": 2,
+            "type": 1
+        },
+        "716052df8e4aa5aa985d43ebdd0fab81": {
+            "format": "jpg",
+            "id": "716052df8e4aa5aa985d43ebdd0fab81",
+            "name": "Cat16_5.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat16_5.jpg",
+            "size": {
+                "width": 1244,
+                "height": 1204
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3f667155be4b7ef2e7aef8316c77e8c6": {
+            "format": "jpg",
+            "id": "3f667155be4b7ef2e7aef8316c77e8c6",
+            "name": "Cat16_6.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat16_6.jpg",
+            "size": {
+                "width": 1244,
+                "height": 1204
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2447f8f70b631ef18dc1d4b025d86f8c": {
+            "format": "jpg",
+            "id": "2447f8f70b631ef18dc1d4b025d86f8c",
+            "name": "Cat16_7.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat16_7.jpg",
+            "size": {
+                "width": 1244,
+                "height": 1204
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c8cb5c4bd55863240eaeb9c63af1dff5": {
+            "format": "jpg",
+            "id": "c8cb5c4bd55863240eaeb9c63af1dff5",
+            "name": "Cat16_8.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat16_8.jpg",
+            "size": {
+                "width": 1244,
+                "height": 1204
+            },
+            "state": 2,
+            "type": 1
+        },
+        "51fc37bac8b8263d8f353cc9b4ceddf5": {
+            "format": "jpg",
+            "id": "51fc37bac8b8263d8f353cc9b4ceddf5",
+            "name": "Cat17_1.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat17_1.jpg",
+            "size": {
+                "width": 1052,
+                "height": 1058
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7f47d9b0d76f2d79ecbcea44e08fcaaa": {
+            "format": "jpg",
+            "id": "7f47d9b0d76f2d79ecbcea44e08fcaaa",
+            "name": "Cat17_2.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat17_2.jpg",
+            "size": {
+                "width": 1026,
+                "height": 1320
+            },
+            "state": 2,
+            "type": 1
+        },
+        "be58640f01371c6829aec104caf610c6": {
+            "format": "jpg",
+            "id": "be58640f01371c6829aec104caf610c6",
+            "name": "Cat17_3.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat17_3.jpg",
+            "size": {
+                "width": 1024,
+                "height": 1206
+            },
+            "state": 2,
+            "type": 1
+        },
+        "389c57c8a79772ba8463be367c72ef1f": {
+            "format": "jpg",
+            "id": "389c57c8a79772ba8463be367c72ef1f",
+            "name": "Cat17_4.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat17_4.jpg",
+            "size": {
+                "width": 1196,
+                "height": 1206
+            },
+            "state": 2,
+            "type": 1
+        },
+        "19bf763e90a2066bb8cf7fb2b6a9ce14": {
+            "format": "jpg",
+            "id": "19bf763e90a2066bb8cf7fb2b6a9ce14",
+            "name": "Cat17_5.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat17_5.jpg",
+            "size": {
+                "width": 1244,
+                "height": 1204
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e1fedcc1228121076fad0206149ec36f": {
+            "format": "jpg",
+            "id": "e1fedcc1228121076fad0206149ec36f",
+            "name": "Cat17_6.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat17_6.jpg",
+            "size": {
+                "width": 1244,
+                "height": 1204
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e6505d65a518ab01091db6a2a6e69236": {
+            "format": "jpg",
+            "id": "e6505d65a518ab01091db6a2a6e69236",
+            "name": "Cat17_7.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat17_7.jpg",
+            "size": {
+                "width": 1244,
+                "height": 1204
+            },
+            "state": 2,
+            "type": 1
+        },
+        "25ff40310e9dd86af0a545b3632e1f81": {
+            "format": "jpg",
+            "id": "25ff40310e9dd86af0a545b3632e1f81",
+            "name": "Cat17_8.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat17_8.jpg",
+            "size": {
+                "width": 1244,
+                "height": 1204
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b23ce846dd8d00de9af43c23ecebf3f9": {
+            "format": "jpg",
+            "id": "b23ce846dd8d00de9af43c23ecebf3f9",
+            "name": "Cat18_1.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat18_1.jpg",
+            "size": {
+                "width": 1363,
+                "height": 791
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fffb2a16f3da2060cd8b1e5143158da5": {
+            "format": "jpg",
+            "id": "fffb2a16f3da2060cd8b1e5143158da5",
+            "name": "Cat18_2.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat18_2.jpg",
+            "size": {
+                "width": 1363,
+                "height": 781
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f4499758522dbdca832a9f54235284b9": {
+            "format": "jpg",
+            "id": "f4499758522dbdca832a9f54235284b9",
+            "name": "Cat18_3.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat18_3.jpg",
+            "size": {
+                "width": 1363,
+                "height": 781
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8d6adf308410a3b440865a5a303782af": {
+            "format": "jpg",
+            "id": "8d6adf308410a3b440865a5a303782af",
+            "name": "Cat18_4.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat18_4.jpg",
+            "size": {
+                "width": 1565,
+                "height": 1074
+            },
+            "state": 2,
+            "type": 1
+        },
+        "34cb23c2c01165e825691ee113b51591": {
+            "format": "jpg",
+            "id": "34cb23c2c01165e825691ee113b51591",
+            "name": "Cat18_5.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat18_5.jpg",
+            "size": {
+                "width": 1257,
+                "height": 781
+            },
+            "state": 2,
+            "type": 1
+        },
+        "533c234d683d01b20f38ca6a49bd3bc0": {
+            "format": "jpg",
+            "id": "533c234d683d01b20f38ca6a49bd3bc0",
+            "name": "Cat18_6.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat18_6.jpg",
+            "size": {
+                "width": 1228,
+                "height": 794
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3e45e9cdca9df4418460a8f56171787f": {
+            "format": "jpg",
+            "id": "3e45e9cdca9df4418460a8f56171787f",
+            "name": "Cat18_7.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat18_7.jpg",
+            "size": {
+                "width": 1228,
+                "height": 793
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e55c6610b6a41a2357ba007e9a00f1cf": {
+            "format": "jpg",
+            "id": "e55c6610b6a41a2357ba007e9a00f1cf",
+            "name": "Cat18_8.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat18_8.jpg",
+            "size": {
+                "width": 1228,
+                "height": 793
+            },
+            "state": 2,
+            "type": 1
+        },
+        "562f0efa011a23dfd0d63fca9aa56928": {
+            "format": "jpg",
+            "id": "562f0efa011a23dfd0d63fca9aa56928",
+            "name": "Cat19_1.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat19_1.jpg",
+            "size": {
+                "width": 1176,
+                "height": 1083
+            },
+            "state": 2,
+            "type": 1
+        },
+        "07fae2a9a134826de1f9a08be1ea1a49": {
+            "format": "jpg",
+            "id": "07fae2a9a134826de1f9a08be1ea1a49",
+            "name": "Cat19_2.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat19_2.jpg",
+            "size": {
+                "width": 1201,
+                "height": 1096
+            },
+            "state": 2,
+            "type": 1
+        },
+        "28509d399298030a24fa40a28344c851": {
+            "format": "jpg",
+            "id": "28509d399298030a24fa40a28344c851",
+            "name": "Cat19_3.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat19_3.jpg",
+            "size": {
+                "width": 1090,
+                "height": 1207
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1a4fc32d64ba3e5d051a542de1279a6e": {
+            "format": "jpg",
+            "id": "1a4fc32d64ba3e5d051a542de1279a6e",
+            "name": "Cat19_4.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat19_4.jpg",
+            "size": {
+                "width": 1099,
+                "height": 1083
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3200b1d6bc8e4c9b09e152398ac2ceab": {
+            "format": "jpg",
+            "id": "3200b1d6bc8e4c9b09e152398ac2ceab",
+            "name": "Cat19_5.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat19_5.jpg",
+            "size": {
+                "width": 1092,
+                "height": 1087
+            },
+            "state": 2,
+            "type": 1
+        },
+        "62b69b1c45dc7199e75984998582035e": {
+            "format": "jpg",
+            "id": "62b69b1c45dc7199e75984998582035e",
+            "name": "Cat19_6.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat19_6.jpg",
+            "size": {
+                "width": 973,
+                "height": 1089
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3e906e7facf99598a21f8259a797e606": {
+            "format": "jpg",
+            "id": "3e906e7facf99598a21f8259a797e606",
+            "name": "Cat19_7.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat19_7.jpg",
+            "size": {
+                "width": 973,
+                "height": 1089
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b6a2a76ee4ac68898e20a47e2e3dc16e": {
+            "format": "jpg",
+            "id": "b6a2a76ee4ac68898e20a47e2e3dc16e",
+            "name": "Cat19_8.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat19_8.jpg",
+            "size": {
+                "width": 973,
+                "height": 1089
+            },
+            "state": 2,
+            "type": 1
+        },
+        "545589cca6337405d48488a54ef8337f": {
+            "format": "jpg",
+            "id": "545589cca6337405d48488a54ef8337f",
+            "name": "Cat1_1.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat1_1.jpg",
+            "size": {
+                "width": 1697,
+                "height": 852
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ab4f1c183915f447d6d1464c36cea6a6": {
+            "format": "jpg",
+            "id": "ab4f1c183915f447d6d1464c36cea6a6",
+            "name": "Cat1_2.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat1_2.jpg",
+            "size": {
+                "width": 1143,
+                "height": 1021
+            },
+            "state": 2,
+            "type": 1
+        },
+        "646a86a2bf7c7560288204bf5cdd4f4b": {
+            "format": "jpg",
+            "id": "646a86a2bf7c7560288204bf5cdd4f4b",
+            "name": "Cat1_3.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat1_3.jpg",
+            "size": {
+                "width": 1083,
+                "height": 991
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1c733c02b128d147771235e237e52535": {
+            "format": "jpg",
+            "id": "1c733c02b128d147771235e237e52535",
+            "name": "Cat1_4.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat1_4.jpg",
+            "size": {
+                "width": 898,
+                "height": 1069
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e823a6d079139435db02491097bd74f5": {
+            "format": "jpg",
+            "id": "e823a6d079139435db02491097bd74f5",
+            "name": "Cat1_5.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat1_5.jpg",
+            "size": {
+                "width": 898,
+                "height": 1115
+            },
+            "state": 2,
+            "type": 1
+        },
+        "63a89e28e2c9253b434658f9b0bd8f35": {
+            "format": "jpg",
+            "id": "63a89e28e2c9253b434658f9b0bd8f35",
+            "name": "Cat1_6.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat1_6.jpg",
+            "size": {
+                "width": 1042,
+                "height": 846
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0c70e8275a3e8e8e9b033d643c2df008": {
+            "format": "jpg",
+            "id": "0c70e8275a3e8e8e9b033d643c2df008",
+            "name": "Cat1_7.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat1_7.jpg",
+            "size": {
+                "width": 989,
+                "height": 886
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8b824480c316ee49c39b0053302f4fe9": {
+            "format": "jpg",
+            "id": "8b824480c316ee49c39b0053302f4fe9",
+            "name": "Cat1_8.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat1_8.jpg",
+            "size": {
+                "width": 1219,
+                "height": 775
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c96aa36ee753bdc6defa542110fcb3f2": {
+            "format": "jpg",
+            "id": "c96aa36ee753bdc6defa542110fcb3f2",
+            "name": "Cat20_1.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat20_1.jpg",
+            "size": {
+                "width": 1249,
+                "height": 997
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cfe8520370d4493ed802c6e5b549434a": {
+            "format": "jpg",
+            "id": "cfe8520370d4493ed802c6e5b549434a",
+            "name": "Cat20_2.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat20_2.jpg",
+            "size": {
+                "width": 1249,
+                "height": 997
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c00accc384658e64290569d85a57ec44": {
+            "format": "jpg",
+            "id": "c00accc384658e64290569d85a57ec44",
+            "name": "Cat20_3.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat20_3.jpg",
+            "size": {
+                "width": 1134,
+                "height": 999
+            },
+            "state": 2,
+            "type": 1
+        },
+        "83e76244727404df2acc7ebc8455f75d": {
+            "format": "jpg",
+            "id": "83e76244727404df2acc7ebc8455f75d",
+            "name": "Cat20_4.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat20_4.jpg",
+            "size": {
+                "width": 1137,
+                "height": 997
+            },
+            "state": 2,
+            "type": 1
+        },
+        "868ad3e271329dfff6fb7f1d785f090f": {
+            "format": "jpg",
+            "id": "868ad3e271329dfff6fb7f1d785f090f",
+            "name": "Cat20_5.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat20_5.jpg",
+            "size": {
+                "width": 1134,
+                "height": 997
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6fa800c1f205ecb6339e39e96531cdbf": {
+            "format": "jpg",
+            "id": "6fa800c1f205ecb6339e39e96531cdbf",
+            "name": "Cat20_6.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat20_6.jpg",
+            "size": {
+                "width": 1249,
+                "height": 1188
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6aa2d2a193abf4d48ccc3977d7469a69": {
+            "format": "jpg",
+            "id": "6aa2d2a193abf4d48ccc3977d7469a69",
+            "name": "Cat20_7.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat20_7.jpg",
+            "size": {
+                "width": 1249,
+                "height": 1182
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a42395ad7fdc1e8e7292310139208431": {
+            "format": "jpg",
+            "id": "a42395ad7fdc1e8e7292310139208431",
+            "name": "Cat20_8.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat20_8.jpg",
+            "size": {
+                "width": 1222,
+                "height": 1252
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f04880cd0a0ee9de8bdd4e284b1b4eb7": {
+            "format": "jpg",
+            "id": "f04880cd0a0ee9de8bdd4e284b1b4eb7",
+            "name": "Cat21_1.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat21_1.jpg",
+            "size": {
+                "width": 1137,
+                "height": 1005
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4b02ebda0d313add05b9fb9a382cb2d0": {
+            "format": "jpg",
+            "id": "4b02ebda0d313add05b9fb9a382cb2d0",
+            "name": "Cat21_2.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat21_2.jpg",
+            "size": {
+                "width": 1137,
+                "height": 1005
+            },
+            "state": 2,
+            "type": 1
+        },
+        "39dd35f00f82752a287bde2a76c1dccb": {
+            "format": "jpg",
+            "id": "39dd35f00f82752a287bde2a76c1dccb",
+            "name": "Cat21_3.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat21_3.jpg",
+            "size": {
+                "width": 1139,
+                "height": 1005
+            },
+            "state": 2,
+            "type": 1
+        },
+        "418e5461dc72306f3443465755226a64": {
+            "format": "jpg",
+            "id": "418e5461dc72306f3443465755226a64",
+            "name": "Cat21_4.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat21_4.jpg",
+            "size": {
+                "width": 1137,
+                "height": 1305
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6bcccb9cc88eb4ab7a2451c908b99c3e": {
+            "format": "jpg",
+            "id": "6bcccb9cc88eb4ab7a2451c908b99c3e",
+            "name": "Cat21_5.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat21_5.jpg",
+            "size": {
+                "width": 1374,
+                "height": 1040
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6860c8d9d6209f6cf65f2e47720044e3": {
+            "format": "jpg",
+            "id": "6860c8d9d6209f6cf65f2e47720044e3",
+            "name": "Cat21_6.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat21_6.jpg",
+            "size": {
+                "width": 1160,
+                "height": 1005
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c5a6d174309e8b9600b86f53d351bcab": {
+            "format": "jpg",
+            "id": "c5a6d174309e8b9600b86f53d351bcab",
+            "name": "Cat21_7.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat21_7.jpg",
+            "size": {
+                "width": 1493,
+                "height": 1009
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c790fe09adeb0a158d5f5ff230857fa4": {
+            "format": "jpg",
+            "id": "c790fe09adeb0a158d5f5ff230857fa4",
+            "name": "Cat21_8.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat21_8.jpg",
+            "size": {
+                "width": 1274,
+                "height": 1294
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cc033f121a416970b6cc1e18d72d994d": {
+            "format": "jpg",
+            "id": "cc033f121a416970b6cc1e18d72d994d",
+            "name": "Cat22_1.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat22_1.jpg",
+            "size": {
+                "width": 933,
+                "height": 1187
+            },
+            "state": 2,
+            "type": 1
+        },
+        "480b4e630ee497fe852d2d7284bba0f4": {
+            "format": "jpg",
+            "id": "480b4e630ee497fe852d2d7284bba0f4",
+            "name": "Cat22_2.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat22_2.jpg",
+            "size": {
+                "width": 1047,
+                "height": 1077
+            },
+            "state": 2,
+            "type": 1
+        },
+        "28696715516be83c121d3a4c6dd04538": {
+            "format": "jpg",
+            "id": "28696715516be83c121d3a4c6dd04538",
+            "name": "Cat22_3.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat22_3.jpg",
+            "size": {
+                "width": 1049,
+                "height": 1077
+            },
+            "state": 2,
+            "type": 1
+        },
+        "73ce7322e07586ce97e8decbcc45ec77": {
+            "format": "jpg",
+            "id": "73ce7322e07586ce97e8decbcc45ec77",
+            "name": "Cat22_4.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat22_4.jpg",
+            "size": {
+                "width": 1284,
+                "height": 1078
+            },
+            "state": 2,
+            "type": 1
+        },
+        "faea7f97d8fa3d11af9d423bc9d7c72b": {
+            "format": "jpg",
+            "id": "faea7f97d8fa3d11af9d423bc9d7c72b",
+            "name": "Cat22_5.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat22_5.jpg",
+            "size": {
+                "width": 943,
+                "height": 1073
+            },
+            "state": 2,
+            "type": 1
+        },
+        "efacdd4d9a75f60f71af3cd3e1755166": {
+            "format": "jpg",
+            "id": "efacdd4d9a75f60f71af3cd3e1755166",
+            "name": "Cat22_6.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat22_6.jpg",
+            "size": {
+                "width": 933,
+                "height": 1187
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e3f68cda53d9000d3f82ed504c683977": {
+            "format": "jpg",
+            "id": "e3f68cda53d9000d3f82ed504c683977",
+            "name": "Cat22_7.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat22_7.jpg",
+            "size": {
+                "width": 933,
+                "height": 1412
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e89de961806e8a879dfcb6316bee30aa": {
+            "format": "jpg",
+            "id": "e89de961806e8a879dfcb6316bee30aa",
+            "name": "Cat22_8.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat22_8.jpg",
+            "size": {
+                "width": 933,
+                "height": 1412
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a6a29d9b6672da5b0e1af660f89d5794": {
+            "format": "jpg",
+            "id": "a6a29d9b6672da5b0e1af660f89d5794",
+            "name": "Cat23_1.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat23_1.jpg",
+            "size": {
+                "width": 937,
+                "height": 1177
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e598cd7185b87273dc99db5f63645fed": {
+            "format": "jpg",
+            "id": "e598cd7185b87273dc99db5f63645fed",
+            "name": "Cat23_2.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat23_2.jpg",
+            "size": {
+                "width": 937,
+                "height": 1177
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2db0147e15b40fa77ac3c21a0537afd1": {
+            "format": "jpg",
+            "id": "2db0147e15b40fa77ac3c21a0537afd1",
+            "name": "Cat23_3.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat23_3.jpg",
+            "size": {
+                "width": 1282,
+                "height": 1177
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3929e6ee9936c2c7187b84843e5f109a": {
+            "format": "jpg",
+            "id": "3929e6ee9936c2c7187b84843e5f109a",
+            "name": "Cat23_4.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat23_4.jpg",
+            "size": {
+                "width": 937,
+                "height": 1177
+            },
+            "state": 2,
+            "type": 1
+        },
+        "927d4a27b12992a088d5d19370b1c390": {
+            "format": "jpg",
+            "id": "927d4a27b12992a088d5d19370b1c390",
+            "name": "Cat23_5.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat23_5.jpg",
+            "size": {
+                "width": 946,
+                "height": 1179
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1d26a62aa57e4dfba6f2637caf92a2b2": {
+            "format": "jpg",
+            "id": "1d26a62aa57e4dfba6f2637caf92a2b2",
+            "name": "Cat23_6.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat23_6.jpg",
+            "size": {
+                "width": 1265,
+                "height": 1179
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1c3449fc227311784eb493c863775a45": {
+            "format": "jpg",
+            "id": "1c3449fc227311784eb493c863775a45",
+            "name": "Cat23_7.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat23_7.jpg",
+            "size": {
+                "width": 1265,
+                "height": 1179
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0b6d18787b4818ab43a0f97ec55d1c9a": {
+            "format": "jpg",
+            "id": "0b6d18787b4818ab43a0f97ec55d1c9a",
+            "name": "Cat23_8.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat23_8.jpg",
+            "size": {
+                "width": 1151,
+                "height": 1179
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a8f1195e928b5ae4cc7aae17a284c37d": {
+            "format": "jpg",
+            "id": "a8f1195e928b5ae4cc7aae17a284c37d",
+            "name": "Cat24_1.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat24_1.jpg",
+            "size": {
+                "width": 1087,
+                "height": 1104
+            },
+            "state": 2,
+            "type": 1
+        },
+        "076114432464536692b2f4628f746214": {
+            "format": "jpg",
+            "id": "076114432464536692b2f4628f746214",
+            "name": "Cat24_2.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat24_2.jpg",
+            "size": {
+                "width": 1087,
+                "height": 1110
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b92fd3bf9a58d3aa3dd59d80dfe06286": {
+            "format": "jpg",
+            "id": "b92fd3bf9a58d3aa3dd59d80dfe06286",
+            "name": "Cat24_3.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat24_3.jpg",
+            "size": {
+                "width": 1086,
+                "height": 1328
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5d8bbd67f4add2fa0da7006ca73c0f45": {
+            "format": "jpg",
+            "id": "5d8bbd67f4add2fa0da7006ca73c0f45",
+            "name": "file_0.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/file_0.jpg",
+            "size": {
+                "width": 6775,
+                "height": 2858
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9e06d35a9746aaed9081d5596c05cb84": {
+            "format": "jpg",
+            "id": "9e06d35a9746aaed9081d5596c05cb84",
+            "name": "file_14.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/file_14.jpg",
+            "size": {
+                "width": 4349,
+                "height": 2227
+            },
+            "state": 2,
+            "type": 1
+        },
+        "eb36a281d9898e5d8e90530b4e43c306": {
+            "format": "jpg",
+            "id": "eb36a281d9898e5d8e90530b4e43c306",
+            "name": "file_15.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/file_15.jpg",
+            "size": {
+                "width": 4307,
+                "height": 1893
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cc11cff529d121343d02179edbf6a4b1": {
+            "format": "jpg",
+            "id": "cc11cff529d121343d02179edbf6a4b1",
+            "name": "file_16.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/file_16.jpg",
+            "size": {
+                "width": 2352,
+                "height": 2507
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d8b201490c73cc4469e5089369590ee7": {
+            "format": "jpg",
+            "id": "d8b201490c73cc4469e5089369590ee7",
+            "name": "file_24.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/file_24.jpg",
+            "size": {
+                "width": 4349,
+                "height": 2227
+            },
+            "state": 2,
+            "type": 1
+        },
+        "eb802a8d3ce6a2a7dff55970cc4b1b7c": {
+            "format": "png",
+            "id": "eb802a8d3ce6a2a7dff55970cc4b1b7c",
+            "name": "Ia_DE1101_sommaire.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Ia_DE1101_sommaire.png",
+            "size": {
+                "width": 3508,
+                "height": 2479
+            },
+            "state": 2,
+            "type": 1
+        },
+        "aa7aaefdf47f2a46b532c14fb2e50375": {
+            "format": "png",
+            "id": "aa7aaefdf47f2a46b532c14fb2e50375",
+            "name": "Ia_DS0801_sommaire.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Ia_DS0801_sommaire.png",
+            "size": {
+                "width": 2479,
+                "height": 3508
+            },
+            "state": 2,
+            "type": 1
+        },
+        "24a6e3c17af5564bb2a21ead9f894e95": {
+            "format": "jpg",
+            "id": "24a6e3c17af5564bb2a21ead9f894e95",
+            "name": "Cat24_4.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat24_4.jpg",
+            "size": {
+                "width": 1197,
+                "height": 1112
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ec0c738918ff23264483c0cb347195a2": {
+            "format": "png",
+            "id": "ec0c738918ff23264483c0cb347195a2",
+            "name": "groundfilled-01.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/groundfilled-01.png",
+            "size": {
+                "width": 1882,
+                "height": 794
+            },
+            "state": 1,
+            "type": 1
+        },
+        "ff9f6b37bccdedb199cb4070f7e1936f": {
+            "format": "png",
+            "id": "ff9f6b37bccdedb199cb4070f7e1936f",
+            "name": "Ia_GO0601_sommaire.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Ia_GO0601_sommaire.png",
+            "size": {
+                "width": 1783,
+                "height": 1664
+            },
+            "state": 2,
+            "type": 1
+        },
+        "06daeac1fa66faf97fefe00e5a37aa29": {
+            "format": "png",
+            "id": "06daeac1fa66faf97fefe00e5a37aa29",
+            "name": "Ia_GY0401_sommaire.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Ia_GY0401_sommaire.png",
+            "size": {
+                "width": 1493,
+                "height": 2553
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e49a81c34f4f2e4078e9924715d2eb79": {
+            "format": "png",
+            "id": "e49a81c34f4f2e4078e9924715d2eb79",
+            "name": "Ia_JN0701_sommaire.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Ia_JN0701_sommaire.png",
+            "size": {
+                "width": 1695,
+                "height": 1216
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9467212ba5728bf559af43b6856e32ec": {
+            "format": "png",
+            "id": "9467212ba5728bf559af43b6856e32ec",
+            "name": "Ia_LS0701_sommaire.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Ia_LS0701_sommaire.png",
+            "size": {
+                "width": 1578,
+                "height": 1906
+            },
+            "state": 2,
+            "type": 1
+        },
+        "969654b2ea665416e610bdd3f980f9f2": {
+            "format": "png",
+            "id": "969654b2ea665416e610bdd3f980f9f2",
+            "name": "Ia_MR0601_sommaire.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Ia_MR0601_sommaire.png",
+            "size": {
+                "width": 1980,
+                "height": 1374
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2d7308bb40ad473377e3108f92e045e3": {
+            "format": "png",
+            "id": "2d7308bb40ad473377e3108f92e045e3",
+            "name": "Ia_TD0801_sommaire.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Ia_TD0801_sommaire.png",
+            "size": {
+                "width": 1997,
+                "height": 1871
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3beaaff27aec4c9c7d59c195e5c0b773": {
+            "format": "png",
+            "id": "3beaaff27aec4c9c7d59c195e5c0b773",
+            "name": "Ib_CT0601_sommaire.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Ib_CT0601_sommaire.png",
+            "size": {
+                "width": 1355,
+                "height": 1764
+            },
+            "state": 2,
+            "type": 1
+        },
+        "62a8048a1a511e2f3400161135dde6ec": {
+            "format": "png",
+            "id": "62a8048a1a511e2f3400161135dde6ec",
+            "name": "Ib_CU1001_sommaire.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Ib_CU1001_sommaire.png",
+            "size": {
+                "width": 1727,
+                "height": 1736
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3e2c47a9cff3cae4223249a981f2211b": {
+            "format": "png",
+            "id": "3e2c47a9cff3cae4223249a981f2211b",
+            "name": "Ib_GY0301_sommaire.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Ib_GY0301_sommaire.png",
+            "size": {
+                "width": 1322,
+                "height": 1334
+            },
+            "state": 2,
+            "type": 1
+        },
+        "967384e059665beceafe8202bb3cc2a6": {
+            "format": "png",
+            "id": "967384e059665beceafe8202bb3cc2a6",
+            "name": "Ib_JR0801_sommaire.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Ib_JR0801_sommaire.png",
+            "size": {
+                "width": 2190,
+                "height": 2409
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9a03bcd9d1bcfd5377865928efe5ebd1": {
+            "format": "png",
+            "id": "9a03bcd9d1bcfd5377865928efe5ebd1",
+            "name": "Ib_LD0601_sommaire.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Ib_LD0601_sommaire.png",
+            "size": {
+                "width": 1189,
+                "height": 1395
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6ff1478b70595e954d7b9d2f495f8f2d": {
+            "format": "png",
+            "id": "6ff1478b70595e954d7b9d2f495f8f2d",
+            "name": "Ib_LT0702_sommaire.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Ib_LT0702_sommaire.png",
+            "size": {
+                "width": 2311,
+                "height": 1371
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e4797d0dd10977399ce79b22bc7b748f": {
+            "format": "png",
+            "id": "e4797d0dd10977399ce79b22bc7b748f",
+            "name": "Ib_PR0901_sommaire.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Ib_PR0901_sommaire.png",
+            "size": {
+                "width": 976,
+                "height": 2048
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4b17d34bc5648cad909260b09d1ceee3": {
+            "format": "png",
+            "id": "4b17d34bc5648cad909260b09d1ceee3",
+            "name": "Ib_RI0501_sommaire.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Ib_RI0501_sommaire.png",
+            "size": {
+                "width": 1504,
+                "height": 1942
+            },
+            "state": 2,
+            "type": 1
+        },
+        "71ac07cb566abec022711ae92beeda14": {
+            "format": "png",
+            "id": "71ac07cb566abec022711ae92beeda14",
+            "name": "Ic_CI1001_sommaire.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Ic_CI1001_sommaire.png",
+            "size": {
+                "width": 1082,
+                "height": 1228
+            },
+            "state": 2,
+            "type": 1
+        },
+        "06e7ca204adb99f2e4f34ad9e5c73a76": {
+            "format": "png",
+            "id": "06e7ca204adb99f2e4f34ad9e5c73a76",
+            "name": "Ic_DE0901_sommaire.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Ic_DE0901_sommaire.png",
+            "size": {
+                "width": 1830,
+                "height": 1676
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c85fbc8daf799490b37bad5b635a9d95": {
+            "format": "png",
+            "id": "c85fbc8daf799490b37bad5b635a9d95",
+            "name": "Ic_JN0702_sommaire.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Ic_JN0702_sommaire.png",
+            "size": {
+                "width": 1308,
+                "height": 1803
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9bd5c0e977f6c211a75005f5b126e059": {
+            "format": "png",
+            "id": "9bd5c0e977f6c211a75005f5b126e059",
+            "name": "Ic_KI0501_sommaire.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Ic_KI0501_sommaire.png",
+            "size": {
+                "width": 1306,
+                "height": 1218
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d4cc618611bac15c530ac8326518c671": {
+            "format": "png",
+            "id": "d4cc618611bac15c530ac8326518c671",
+            "name": "Ic_MT0601_sommaire.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Ic_MT0601_sommaire.png",
+            "size": {
+                "width": 1171,
+                "height": 1089
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d1729e1491713248af079414d6d042e1": {
+            "format": "png",
+            "id": "d1729e1491713248af079414d6d042e1",
+            "name": "Ic_MU0703_sommaire.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Ic_MU0703_sommaire.png",
+            "size": {
+                "width": 1345,
+                "height": 1064
+            },
+            "state": 2,
+            "type": 1
+        },
+        "51b63c0c75acac1f5a44915042d8447a": {
+            "format": "png",
+            "id": "51b63c0c75acac1f5a44915042d8447a",
+            "name": "Ic_RD0602_sommaire.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Ic_RD0602_sommaire.png",
+            "size": {
+                "width": 1562,
+                "height": 1496
+            },
+            "state": 2,
+            "type": 1
+        },
+        "89984a07351110d29152c1554d2f4dd7": {
+            "format": "png",
+            "id": "89984a07351110d29152c1554d2f4dd7",
+            "name": "Ic_RE0503_sommaire.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Ic_RE0503_sommaire.png",
+            "size": {
+                "width": 1094,
+                "height": 1115
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c945c193defa116814ff10f70d8bee2e": {
+            "format": "png",
+            "id": "c945c193defa116814ff10f70d8bee2e",
+            "name": "IIa_AP3401.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/IIa_AP3401.png",
+            "size": {
+                "width": 2239,
+                "height": 1743
+            },
+            "state": 2,
+            "type": 1
+        },
+        "743f204270ebd6f037a8bb515dd25486": {
+            "format": "png",
+            "id": "743f204270ebd6f037a8bb515dd25486",
+            "name": "IIa_AP3601.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/IIa_AP3601.png",
+            "size": {
+                "width": 1918,
+                "height": 1871
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d1402d5acd3ef407c44a28e1aee90c27": {
+            "format": "png",
+            "id": "d1402d5acd3ef407c44a28e1aee90c27",
+            "name": "IIa_BA0710.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/IIa_BA0710.png",
+            "size": {
+                "width": 2021,
+                "height": 1870
+            },
+            "state": 2,
+            "type": 1
+        },
+        "54ac3613b3cfedbdd417fc074a2bd43b": {
+            "format": "png",
+            "id": "54ac3613b3cfedbdd417fc074a2bd43b",
+            "name": "IIa_BK0701.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/IIa_BK0701.png",
+            "size": {
+                "width": 1392,
+                "height": 1164
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a1939e2009a654d9e568b2e7774d900d": {
+            "format": "png",
+            "id": "a1939e2009a654d9e568b2e7774d900d",
+            "name": "IIa_BK0703.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/IIa_BK0703.png",
+            "size": {
+                "width": 979,
+                "height": 1733
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0de3aa71e05a7c47059658be065fba2e": {
+            "format": "png",
+            "id": "0de3aa71e05a7c47059658be065fba2e",
+            "name": "IIa_BN0802.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/IIa_BN0802.png",
+            "size": {
+                "width": 1519,
+                "height": 1846
+            },
+            "state": 2,
+            "type": 1
+        },
+        "856eeefd4e1fcd447cff50baead46b93": {
+            "format": "png",
+            "id": "856eeefd4e1fcd447cff50baead46b93",
+            "name": "IIa_BN0803.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/IIa_BN0803.png",
+            "size": {
+                "width": 2191,
+                "height": 1437
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c0473b3574f307ab4ec1723b82a09a92": {
+            "format": "png",
+            "id": "c0473b3574f307ab4ec1723b82a09a92",
+            "name": "IIa_BN0820.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/IIa_BN0820.png",
+            "size": {
+                "width": 1495,
+                "height": 1801
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4392553b87b152989c349176d6a20af9": {
+            "format": "png",
+            "id": "4392553b87b152989c349176d6a20af9",
+            "name": "IIa_CN0603.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/IIa_CN0603.png",
+            "size": {
+                "width": 1672,
+                "height": 1719
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "9345240fcd2e5a1ba83d0855633b4a9d": {
+            "format": "jpg",
+            "id": "9345240fcd2e5a1ba83d0855633b4a9d",
+            "name": "Cat24_5.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat24_5.jpg",
+            "size": {
+                "width": 1197,
+                "height": 1281
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "37b87ad684f8956b04e7edf417c8f787": {
+            "format": "jpg",
+            "id": "37b87ad684f8956b04e7edf417c8f787",
+            "name": "Cat24_6.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat24_6.jpg",
+            "size": {
+                "width": 1197,
+                "height": 1281
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "d3572b6bc0541508b18c3bb8da194954": {
+            "format": "jpg",
+            "id": "d3572b6bc0541508b18c3bb8da194954",
+            "name": "Cat24_7.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat24_7.jpg",
+            "size": {
+                "width": 1197,
+                "height": 1281
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "287b5836443a31af36397ca83776ded1": {
+            "format": "jpg",
+            "id": "287b5836443a31af36397ca83776ded1",
+            "name": "Cat24_8.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat24_8.jpg",
+            "size": {
+                "width": 1086,
+                "height": 1281
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "5c7dae3ff62b5c17937029422792ce83": {
+            "format": "jpg",
+            "id": "5c7dae3ff62b5c17937029422792ce83",
+            "name": "Cat25_1.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat25_1.jpg",
+            "size": {
+                "width": 1622,
+                "height": 1139
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "e4683ffa197d6ba0099f4be3cdce313c": {
+            "format": "jpg",
+            "id": "e4683ffa197d6ba0099f4be3cdce313c",
+            "name": "Cat25_2.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat25_2.jpg",
+            "size": {
+                "width": 1732,
+                "height": 1077
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "73120e1bb272eaf613cf08ccce6054fd": {
+            "format": "jpg",
+            "id": "73120e1bb272eaf613cf08ccce6054fd",
+            "name": "Cat25_3.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat25_3.jpg",
+            "size": {
+                "width": 1519,
+                "height": 1347
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "2afd517908cea423f025a8211eb098ce": {
+            "format": "jpg",
+            "id": "2afd517908cea423f025a8211eb098ce",
+            "name": "Cat25_4.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat25_4.jpg",
+            "size": {
+                "width": 1539,
+                "height": 1347
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "4207a61e046f6b48f09f74a3b25db761": {
+            "format": "jpg",
+            "id": "4207a61e046f6b48f09f74a3b25db761",
+            "name": "Cat25_5.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat25_5.jpg",
+            "size": {
+                "width": 1537,
+                "height": 1350
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "0b4cf756edce68dbc75ec5cdabb7e2d4": {
+            "format": "jpg",
+            "id": "0b4cf756edce68dbc75ec5cdabb7e2d4",
+            "name": "Cat25_6.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat25_6.jpg",
+            "size": {
+                "width": 1537,
+                "height": 1340
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "1bf522c0fedf484342583f25d7543faf": {
+            "format": "jpg",
+            "id": "1bf522c0fedf484342583f25d7543faf",
+            "name": "Cat25_7.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat25_7.jpg",
+            "size": {
+                "width": 1537,
+                "height": 1340
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "856c3bd0368671bb84666687ecd00932": {
+            "format": "jpg",
+            "id": "856c3bd0368671bb84666687ecd00932",
+            "name": "Cat25_8.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat25_8.jpg",
+            "size": {
+                "width": 1537,
+                "height": 1340
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "71aa09ba3885690f17d7c05f095730c8": {
+            "format": "jpg",
+            "id": "71aa09ba3885690f17d7c05f095730c8",
+            "name": "Cat26_1.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat26_1.jpg",
+            "size": {
+                "width": 1359,
+                "height": 1464
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "7f0c07e9404081eac3e5fe8890b5055a": {
+            "format": "jpg",
+            "id": "7f0c07e9404081eac3e5fe8890b5055a",
+            "name": "Cat26_2.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat26_2.jpg",
+            "size": {
+                "width": 1359,
+                "height": 1464
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "31a6f0eec6b306686b687b6be3891f99": {
+            "format": "jpg",
+            "id": "31a6f0eec6b306686b687b6be3891f99",
+            "name": "Cat26_3.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat26_3.jpg",
+            "size": {
+                "width": 1472,
+                "height": 1355
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "ca1124dd4e924e9d30f2177429c3e058": {
+            "format": "jpg",
+            "id": "ca1124dd4e924e9d30f2177429c3e058",
+            "name": "Cat26_4.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat26_4.jpg",
+            "size": {
+                "width": 1363,
+                "height": 1305
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "b516b84827c31e723f7c552a5b372520": {
+            "format": "jpg",
+            "id": "b516b84827c31e723f7c552a5b372520",
+            "name": "Cat26_5.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat26_5.jpg",
+            "size": {
+                "width": 1485,
+                "height": 1412
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "bd588aecf9f1af6fa6ae81363b2d38f4": {
+            "format": "jpg",
+            "id": "bd588aecf9f1af6fa6ae81363b2d38f4",
+            "name": "Cat26_6.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat26_6.jpg",
+            "size": {
+                "width": 1485,
+                "height": 1412
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "25db42dd0cf581e663f7d01a5a21a0c3": {
+            "format": "jpg",
+            "id": "25db42dd0cf581e663f7d01a5a21a0c3",
+            "name": "Cat26_7.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat26_7.jpg",
+            "size": {
+                "width": 1485,
+                "height": 1410
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "4bee2ad2e60da5f72e14d64becbe879b": {
+            "format": "jpg",
+            "id": "4bee2ad2e60da5f72e14d64becbe879b",
+            "name": "Cat26_8.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat26_8.jpg",
+            "size": {
+                "width": 1363,
+                "height": 1438
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "ef2c72336a8ff7428335467ad3929b9e": {
+            "format": "jpg",
+            "id": "ef2c72336a8ff7428335467ad3929b9e",
+            "name": "Cat27_1.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat27_1.jpg",
+            "size": {
+                "width": 1734,
+                "height": 1231
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "48071113f0525e1c2bbecc92e2a24415": {
+            "format": "jpg",
+            "id": "48071113f0525e1c2bbecc92e2a24415",
+            "name": "Cat27_2.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat27_2.jpg",
+            "size": {
+                "width": 1734,
+                "height": 1233
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "b31acc0f6884fdfe0704986ceb787dd5": {
+            "format": "jpg",
+            "id": "b31acc0f6884fdfe0704986ceb787dd5",
+            "name": "Cat27_3.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat27_3.jpg",
+            "size": {
+                "width": 1607,
+                "height": 1120
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "023d71f64001e9f0f9919e238fd1efa0": {
+            "format": "jpg",
+            "id": "023d71f64001e9f0f9919e238fd1efa0",
+            "name": "Cat27_4.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat27_4.jpg",
+            "size": {
+                "width": 1734,
+                "height": 1236
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "3494b561ee12ee1a7a7a5a7756e69df2": {
+            "format": "jpg",
+            "id": "3494b561ee12ee1a7a7a5a7756e69df2",
+            "name": "Cat27_5.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat27_5.jpg",
+            "size": {
+                "width": 2050,
+                "height": 1444
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "5805f5a815de21635d72e91882fc5fd5": {
+            "format": "jpg",
+            "id": "5805f5a815de21635d72e91882fc5fd5",
+            "name": "Cat27_6.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat27_6.jpg",
+            "size": {
+                "width": 1718,
+                "height": 1233
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "8a0b51b88b0200e1fa3bde06f4e7106a": {
+            "format": "jpg",
+            "id": "8a0b51b88b0200e1fa3bde06f4e7106a",
+            "name": "Cat27_7.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat27_7.jpg",
+            "size": {
+                "width": 1718,
+                "height": 1233
+            },
+            "state": 2,
+            "type": 1
+        },
+        "316e05af77730ca5b2f8d55d899185fa": {
+            "format": "jpg",
+            "id": "316e05af77730ca5b2f8d55d899185fa",
+            "name": "Cat27_8.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat27_8.jpg",
+            "size": {
+                "width": 1718,
+                "height": 1124
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4dc8aae7c99e7f8b100c9b6a70aab986": {
+            "format": "jpg",
+            "id": "4dc8aae7c99e7f8b100c9b6a70aab986",
+            "name": "Cat28_1.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat28_1.jpg",
+            "size": {
+                "width": 1177,
+                "height": 937
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ca937cae41a64cfc321ce060f7c22509": {
+            "format": "jpg",
+            "id": "ca937cae41a64cfc321ce060f7c22509",
+            "name": "Cat28_2.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat28_2.jpg",
+            "size": {
+                "width": 1177,
+                "height": 937
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b0d62affbfcfa562aae27e02101a55ef": {
+            "format": "jpg",
+            "id": "b0d62affbfcfa562aae27e02101a55ef",
+            "name": "Cat28_3.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat28_3.jpg",
+            "size": {
+                "width": 1177,
+                "height": 1282
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cc76827895e81d53455ae25ef481f406": {
+            "format": "jpg",
+            "id": "cc76827895e81d53455ae25ef481f406",
+            "name": "Cat28_4.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat28_4.jpg",
+            "size": {
+                "width": 1177,
+                "height": 937
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e860d6e4c6a53c54a995d4fc33b6b6db": {
+            "format": "jpg",
+            "id": "e860d6e4c6a53c54a995d4fc33b6b6db",
+            "name": "Cat28_5.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat28_5.jpg",
+            "size": {
+                "width": 1179,
+                "height": 947
+            },
+            "state": 2,
+            "type": 1
+        },
+        "191eab4a8b889b3bc9e36e935bfbd11f": {
+            "format": "jpg",
+            "id": "191eab4a8b889b3bc9e36e935bfbd11f",
+            "name": "Cat28_6.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat28_6.jpg",
+            "size": {
+                "width": 1178,
+                "height": 1265
+            },
+            "state": 2,
+            "type": 1
+        },
+        "218046fd038fd6c6118512a5b2c4cf34": {
+            "format": "jpg",
+            "id": "218046fd038fd6c6118512a5b2c4cf34",
+            "name": "Cat28_7.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat28_7.jpg",
+            "size": {
+                "width": 1178,
+                "height": 1265
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0c7183d7661f742f1c6bc3a75075c562": {
+            "format": "jpg",
+            "id": "0c7183d7661f742f1c6bc3a75075c562",
+            "name": "Cat28_8.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat28_8.jpg",
+            "size": {
+                "width": 1179,
+                "height": 1151
+            },
+            "state": 2,
+            "type": 1
+        },
+        "65f6bc37bbd45996b8d7ea34849b8de0": {
+            "format": "jpg",
+            "id": "65f6bc37bbd45996b8d7ea34849b8de0",
+            "name": "Cat29_1.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat29_1.jpg",
+            "size": {
+                "width": 1177,
+                "height": 936
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4d9c1645550a7b50f4280588506a8960": {
+            "format": "jpg",
+            "id": "4d9c1645550a7b50f4280588506a8960",
+            "name": "Cat29_2.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat29_2.jpg",
+            "size": {
+                "width": 1177,
+                "height": 936
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4089f5cd25ceab4cff80e55995abaf91": {
+            "format": "jpg",
+            "id": "4089f5cd25ceab4cff80e55995abaf91",
+            "name": "Cat29_3.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat29_3.jpg",
+            "size": {
+                "width": 1177,
+                "height": 1282
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e5c4c3c37d353fc39dd337cac190695e": {
+            "format": "jpg",
+            "id": "e5c4c3c37d353fc39dd337cac190695e",
+            "name": "Cat29_4.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat29_4.jpg",
+            "size": {
+                "width": 1177,
+                "height": 936
+            },
+            "state": 2,
+            "type": 1
+        },
+        "892090681dc2a6e41e3ebcd3512587a7": {
+            "format": "jpg",
+            "id": "892090681dc2a6e41e3ebcd3512587a7",
+            "name": "Cat29_5.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat29_5.jpg",
+            "size": {
+                "width": 1179,
+                "height": 948
+            },
+            "state": 2,
+            "type": 1
+        },
+        "413259a9991819f67f8018f90b3460dd": {
+            "format": "jpg",
+            "id": "413259a9991819f67f8018f90b3460dd",
+            "name": "Cat29_6.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat29_6.jpg",
+            "size": {
+                "width": 1179,
+                "height": 1266
+            },
+            "state": 2,
+            "type": 1
+        },
+        "87a4fcc515bc070c94a1e3d3a4c7ff65": {
+            "format": "jpg",
+            "id": "87a4fcc515bc070c94a1e3d3a4c7ff65",
+            "name": "Cat29_7.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat29_7.jpg",
+            "size": {
+                "width": 1179,
+                "height": 1266
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d272f0f7fb2d97e02e2e8f8adcd77362": {
+            "format": "jpg",
+            "id": "d272f0f7fb2d97e02e2e8f8adcd77362",
+            "name": "Cat29_8.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat29_8.jpg",
+            "size": {
+                "width": 1179,
+                "height": 1151
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4c18eb48192eaebcad7358836bcd8dbd": {
+            "format": "jpg",
+            "id": "4c18eb48192eaebcad7358836bcd8dbd",
+            "name": "Cat2_1.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat2_1.jpg",
+            "size": {
+                "width": 852,
+                "height": 1697
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e2cf3fb25ef234939e42fe6588354db2": {
+            "format": "jpg",
+            "id": "e2cf3fb25ef234939e42fe6588354db2",
+            "name": "Cat2_2.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat2_2.jpg",
+            "size": {
+                "width": 1021,
+                "height": 1143
+            },
+            "state": 2,
+            "type": 1
+        },
+        "dbe19ec43a094d20821d1eba8443abe3": {
+            "format": "jpg",
+            "id": "dbe19ec43a094d20821d1eba8443abe3",
+            "name": "Cat2_3.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat2_3.jpg",
+            "size": {
+                "width": 991,
+                "height": 1083
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d7fbc07f47cc365e54bcca3de999f70c": {
+            "format": "jpg",
+            "id": "d7fbc07f47cc365e54bcca3de999f70c",
+            "name": "Cat2_4.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat2_4.jpg",
+            "size": {
+                "width": 1069,
+                "height": 898
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5777da33b9c185c4081c1e9e7f582f3a": {
+            "format": "jpg",
+            "id": "5777da33b9c185c4081c1e9e7f582f3a",
+            "name": "Cat2_5.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat2_5.jpg",
+            "size": {
+                "width": 1115,
+                "height": 898
+            },
+            "state": 2,
+            "type": 1
+        },
+        "92634d665fa49798bdf4e1bcd5d5b17d": {
+            "format": "jpg",
+            "id": "92634d665fa49798bdf4e1bcd5d5b17d",
+            "name": "Cat2_6.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat2_6.jpg",
+            "size": {
+                "width": 846,
+                "height": 1042
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7c4528b07a15f193b80c896d59d9e4b5": {
+            "format": "jpg",
+            "id": "7c4528b07a15f193b80c896d59d9e4b5",
+            "name": "Cat2_7.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat2_7.jpg",
+            "size": {
+                "width": 886,
+                "height": 989
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c4850c4731712f8cbec86808657e355a": {
+            "format": "jpg",
+            "id": "c4850c4731712f8cbec86808657e355a",
+            "name": "Cat2_8.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat2_8.jpg",
+            "size": {
+                "width": 775,
+                "height": 1219
+            },
+            "state": 2,
+            "type": 1
+        },
+        "43a8dc5b34ae0799191fe57f07bbb2fb": {
+            "format": "jpg",
+            "id": "43a8dc5b34ae0799191fe57f07bbb2fb",
+            "name": "Cat30_1.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat30_1.jpg",
+            "size": {
+                "width": 936,
+                "height": 1177
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d2c370261376db57ff50ec8bdafebb33": {
+            "format": "jpg",
+            "id": "d2c370261376db57ff50ec8bdafebb33",
+            "name": "Cat30_2.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat30_2.jpg",
+            "size": {
+                "width": 936,
+                "height": 1177
+            },
+            "state": 2,
+            "type": 1
+        },
+        "697869aa2f0846d7995d44a1c8358b17": {
+            "format": "jpg",
+            "id": "697869aa2f0846d7995d44a1c8358b17",
+            "name": "Cat30_3.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat30_3.jpg",
+            "size": {
+                "width": 1282,
+                "height": 1177
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3d69153a48dad0d3a7be10a122d344aa": {
+            "format": "jpg",
+            "id": "3d69153a48dad0d3a7be10a122d344aa",
+            "name": "Cat30_4.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat30_4.jpg",
+            "size": {
+                "width": 936,
+                "height": 1177
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4fa88e5f9a6467f903160941feafdbc7": {
+            "format": "jpg",
+            "id": "4fa88e5f9a6467f903160941feafdbc7",
+            "name": "Cat30_5.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat30_5.jpg",
+            "size": {
+                "width": 947,
+                "height": 1179
+            },
+            "state": 2,
+            "type": 1
+        },
+        "41ab2803cb0010eb259a2b84a4f636f0": {
+            "format": "jpg",
+            "id": "41ab2803cb0010eb259a2b84a4f636f0",
+            "name": "Cat30_6.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat30_6.jpg",
+            "size": {
+                "width": 1266,
+                "height": 1179
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4d63d9b49df7e3fb21df65017d7b80bb": {
+            "format": "jpg",
+            "id": "4d63d9b49df7e3fb21df65017d7b80bb",
+            "name": "Cat30_7.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat30_7.jpg",
+            "size": {
+                "width": 1266,
+                "height": 1179
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fd6d18f3260492e8730a3315e5a29bbb": {
+            "format": "jpg",
+            "id": "fd6d18f3260492e8730a3315e5a29bbb",
+            "name": "Cat30_8.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat30_8.jpg",
+            "size": {
+                "width": 1152,
+                "height": 1179
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f88ed9def74390150568c3854e021d50": {
+            "format": "jpg",
+            "id": "f88ed9def74390150568c3854e021d50",
+            "name": "Cat31_1.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/Cat31_1.jpg",
+            "size": {
+                "width": 1104,
+                "height": 1087
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c23f9147e8cf01658b5762361a55a93c": {
+            "format": "jpg",
+            "id": "c23f9147e8cf01658b5762361a55a93c",
+            "name": "file_25.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/file_25.jpg",
+            "size": {
+                "width": 4307,
+                "height": 1893
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0e82758b900a98f52d83c4149d935701": {
+            "format": "jpg",
+            "id": "0e82758b900a98f52d83c4149d935701",
+            "name": "file_28.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/file_28.jpg",
+            "size": {
+                "width": 3059,
+                "height": 3341
+            },
+            "state": 2,
+            "type": 1
+        },
+        "eababffa14e193d4fa23ed89782b41b8": {
+            "format": "jpg",
+            "id": "eababffa14e193d4fa23ed89782b41b8",
+            "name": "file_3.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/file_3.jpg",
+            "size": {
+                "width": 2218,
+                "height": 2475
+            },
+            "state": 2,
+            "type": 1
+        },
+        "78b7e6fab085fe80416ce5309820e0b6": {
+            "format": "jpg",
+            "id": "78b7e6fab085fe80416ce5309820e0b6",
+            "name": "file_35.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/file_35.jpg",
+            "size": {
+                "width": 4307,
+                "height": 1893
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1300de81eaa8ae0978caf3ae06f93ba0": {
+            "format": "jpg",
+            "id": "1300de81eaa8ae0978caf3ae06f93ba0",
+            "name": "file_4.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/file_4.jpg",
+            "size": {
+                "width": 4349,
+                "height": 2227
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f26c844024aec330dcd92bb91fb3be6a": {
+            "format": "jpg",
+            "id": "f26c844024aec330dcd92bb91fb3be6a",
+            "name": "file_41.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/file_41.jpg",
+            "size": {
+                "width": 2056,
+                "height": 1837
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2d46ed7134d7c01d19fc92fe11cabad1": {
+            "format": "jpg",
+            "id": "2d46ed7134d7c01d19fc92fe11cabad1",
+            "name": "file_42.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/file_42.jpg",
+            "size": {
+                "width": 2056,
+                "height": 1837
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f7c997aba2f2656d98296842b46bfb44": {
+            "format": "jpg",
+            "id": "f7c997aba2f2656d98296842b46bfb44",
+            "name": "file_43.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/file_43.jpg",
+            "size": {
+                "width": 2056,
+                "height": 1837
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c9891891fb43f21210e238d19469a298": {
+            "format": "jpg",
+            "id": "c9891891fb43f21210e238d19469a298",
+            "name": "file_5.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/file_5.jpg",
+            "size": {
+                "width": 2218,
+                "height": 2475
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d3cd73eb2ba2a5d3c3e4cbfbb8ce15a0": {
+            "format": "jpg",
+            "id": "d3cd73eb2ba2a5d3c3e4cbfbb8ce15a0",
+            "name": "file_71.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/file_71.jpg",
+            "size": {
+                "width": 3036,
+                "height": 2967
+            },
+            "state": 2,
+            "type": 1
+        },
+        "77a0e57d832efa8908dc49a3c8e32cd0": {
+            "format": "jpg",
+            "id": "77a0e57d832efa8908dc49a3c8e32cd0",
+            "name": "file_83.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/file_83.jpg",
+            "size": {
+                "width": 5498,
+                "height": 2961
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a099124b1a10e468ddf48d37ee61a120": {
+            "format": "jpg",
+            "id": "a099124b1a10e468ddf48d37ee61a120",
+            "name": "file_87.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/file_87.jpg",
+            "size": {
+                "width": 3059,
+                "height": 3341
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c44402baeb104452689e38806665522b": {
+            "format": "jpg",
+            "id": "c44402baeb104452689e38806665522b",
+            "name": "file_9.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/file_9.jpg",
+            "size": {
+                "width": 2218,
+                "height": 2475
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0294854d0bdfc93aec0191cd0f40e8c0": {
+            "format": "jpg",
+            "id": "0294854d0bdfc93aec0191cd0f40e8c0",
+            "name": "file_92.jpg",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/file_92.jpg",
+            "size": {
+                "width": 5498,
+                "height": 2961
+            },
+            "state": 2,
+            "type": 1
+        },
+        "927e2701ed1e4256e34b324b51e6a1be": {
+            "format": "png",
+            "id": "927e2701ed1e4256e34b324b51e6a1be",
+            "name": "IIa_CS0803.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/IIa_CS0803.png",
+            "size": {
+                "width": 1912,
+                "height": 1439
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6539534ec87e727970c9d4c27c67e829": {
+            "format": "png",
+            "id": "6539534ec87e727970c9d4c27c67e829",
+            "name": "IIa_DE1110.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/IIa_DE1110.png",
+            "size": {
+                "width": 2382,
+                "height": 1210
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7d9a768fc24cb70193b3243b09f48ef8": {
+            "format": "png",
+            "id": "7d9a768fc24cb70193b3243b09f48ef8",
+            "name": "IIa_DL0701.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/IIa_DL0701.png",
+            "size": {
+                "width": 1170,
+                "height": 1382
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5e0923b0dd249dcc79f717086e63ad82": {
+            "format": "png",
+            "id": "5e0923b0dd249dcc79f717086e63ad82",
+            "name": "IIa_FE0901.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/IIa_FE0901.png",
+            "size": {
+                "width": 2370,
+                "height": 1515
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fc5f907dd1099854d6177219d8cc442d": {
+            "format": "png",
+            "id": "fc5f907dd1099854d6177219d8cc442d",
+            "name": "IIa_GC0801.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/IIa_GC0801.png",
+            "size": {
+                "width": 1750,
+                "height": 1842
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e7f4e4bc500d298e77102c9487fc8ce0": {
+            "format": "png",
+            "id": "e7f4e4bc500d298e77102c9487fc8ce0",
+            "name": "IIa_GC0802.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/IIa_GC0802.png",
+            "size": {
+                "width": 1960,
+                "height": 1807
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2509c8901883da728c6b64a36eb03b22": {
+            "format": "png",
+            "id": "2509c8901883da728c6b64a36eb03b22",
+            "name": "IIa_GC1202.png",
+            "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/IIa_GC1202.png",
+            "size": {
+                "width": 2872,
+                "height": 2124
+            },
+            "state": 2,
+            "type": 1
+        }
+    }
+}

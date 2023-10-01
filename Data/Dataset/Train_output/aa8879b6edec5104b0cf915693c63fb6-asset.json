@@ -1,0 +1,49 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "aa8879b6edec5104b0cf915693c63fb6",
+        "name": "big12_2.jpg",
+        "path": "file:C:/Working/AWS%20Apps/Computer_vision/My_Project/Dataset/Raw_train/big12_2.jpg",
+        "size": {
+            "width": 2574,
+            "height": 1000
+        },
+        "state": 2,
+        "type": 1,
+        "predicted": true
+    },
+    "regions": [
+        {
+            "id": "1hEMPjG5H",
+            "type": "RECTANGLE",
+            "tags": [
+                "Door"
+            ],
+            "boundingBox": {
+                "height": 136.51428829367546,
+                "width": 133.8347692541174,
+                "left": 519.4378277281536,
+                "top": 422.9208489298584
+            },
+            "points": [
+                {
+                    "x": 519.4378277281536,
+                    "y": 422.9208489298584
+                },
+                {
+                    "x": 653.272596982271,
+                    "y": 422.9208489298584
+                },
+                {
+                    "x": 653.272596982271,
+                    "y": 559.4351372235338
+                },
+                {
+                    "x": 519.4378277281536,
+                    "y": 559.4351372235338
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}
